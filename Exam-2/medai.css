@@ -1,0 +1,124 @@
+@media(max-width:1024px)
+{
+    .hedarcontenar h1
+    {
+        text-align: center;
+    }
+    .menu
+    {
+        margin-top: 50px;
+    }
+    .menucontenar ul
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .menucontenar ul li
+    {
+        padding-bottom: 10px;
+    }
+    .imgcontenar
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .img-1
+    {
+        height: 300px;
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    .img-1medai-1
+    {
+        height: 300px;
+        width: 430px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:768px)
+{
+    .hedarcontenar h1
+    {
+        text-align: center;
+    }
+    .menu
+    {
+        margin-top: 40px;
+    }
+    .menucontenar ul
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .menucontenar ul li
+    {
+        padding-bottom: 10px;
+    }
+    .imgcontenar
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap ;
+    }
+    .img-1
+    {
+        margin-bottom: 10px;
+    }
+    .img-1medai-1
+    {
+    height: 300px;
+    width: 320px;
+    border-radius: 5px;
+    }
+    .img-1medai-1 img
+    {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    }
+
+}
+@media(max-width:480px)
+{
+    .hedarcontenar h1
+    {
+        text-align: center;
+    }
+    .menu
+    {
+        margin-top: 20px;
+    }
+    .menucontenar ul
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menucontenar ul li
+    {
+        padding-bottom: 10px;
+    }
+    .imgcontenar
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-1
+    {
+        margin-bottom: 10px;
+    }
+}
